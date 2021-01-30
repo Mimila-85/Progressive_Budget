@@ -14,9 +14,6 @@ const FILES_TO_CACHE = [
   "/styles.css",
 ].concat(iconFiles);
 
-const PRECACHE = "precache-v1";
-const RUNTIME = "runtime";
-
 // Install and register your service worker.
 self.addEventListener("install", function(evt) {
   evt.waitUntil(
